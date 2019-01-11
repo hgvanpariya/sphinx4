@@ -161,6 +161,7 @@ public class SpeedTracker
             totalProcessingTime += processingTime;
             if (showDetails) {
                 showAudioUsage();
+                result.setTotalAudioTime(totalAudioTime);
             }
         }
     }
